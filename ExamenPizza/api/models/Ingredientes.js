@@ -7,8 +7,20 @@
 
 module.exports = {
 
-  attributes: {
 
+
+
+  atributes: {
+
+    nombre: {
+      type: 'string',
+      required: true
+    },
+
+    precio: {
+      type: 'float',
+      required: true
+    }
   }
 };
 

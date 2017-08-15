@@ -9,6 +9,19 @@ module.exports = {
 
   attributes: {
 
+
+
+
+      tamanio:{
+        type:'string',
+        enum:['Familiar','Mediana','Personal'],
+        required:true
+      },
+      precio:{
+        type:'float',
+        required:true,
+      },
+
   }
 };
 
